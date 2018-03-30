@@ -9,7 +9,26 @@ otherwise there is a phantom div on the right side of the screen (from the left:
 that the window will scroll to. Note the left:50vw and transform is used to center content
 horizaontally based on vw to prevent content jump when vertical scroll bar show/hide.*/
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: $lato-font;
   font-size: $base-font-size;
   overflow-x: hidden;
+}
+
+h1 {
+  color: $black-color;
+  font-size: $large-font-size;
+}
+
+h2 {
+  color: $black-color;
+  font-family: $baskerville-font;
+  font-size: $medium-font-size;
+}
+
+a, a:link, a:visited {
+  color: $blue-color;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
 }

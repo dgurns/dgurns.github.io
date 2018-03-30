@@ -26,9 +26,15 @@
   color: $gray-color;
   display: flex;
   flex: 1;
-  max-width: 372px;
+  flex-direction: column;
+  max-width: 400px;
   min-width: 140px;
   @include mobile {
     width: 100%;
   }
+}
+
+.music__album-price {
+  color: $black-color;
+  margin: 10px 0px 30px;
 }

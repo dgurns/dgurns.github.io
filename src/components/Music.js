@@ -5,7 +5,35 @@ export default function Music() {
     <div className="music">
       <div className="music__album-cover" />
       <div className="music__album-description">
-        New CD!
+        <div>New CD!</div>
+        <h2 style={{ margin: '10px 0px' }}>Ignorance Is Bliss</h2>
+        <div>Dan Gurney with John Blake (guitar)</div>
+        <div>Includes 12 page liner note booklet</div>
+        <div className="music__album-price">
+          $20 with free shipping anywhere in the world
+        </div>
+        <div>
+          “Dan Gurney’s music speaks for itself. His heart governs how he plays.
+          Dan’s music on this recording is magical, lyrical and effortless.
+          Congratulations lads, this is a memorable recording.” – Sé́amus Connolly
+          <br /><br />
+          1. Jimmy Neary{"'"}s / The Walls of Liscarroll
+          <a style={{ marginLeft: '10px' }}>Listen</a><br />
+          2. Fermanagh Highland / Sporting Nell<br />
+          3. Muineal A Bhardail / The First House in Connaught<br />
+          4. Lord Leitrim / Mount Phoebus Hunt<br />
+          5. Mordaunt{"'"}s Fancy / Come Along With Me<br />
+          6. Kevin Keegan{"'"}s Waltz / The Clare Glens<br />
+          7. Taimse Im{"'"} Chodladh<br />
+          8. Tim Moloney{"'"}s / Molloy{"'"}s Favorite / The Boy in the Gap<br />
+          9. The Cuckoo{"'"}s Nest / The Rolling Hills of Maryland<br />
+          10. Blasket Island Jig / My Wife’s a Wanton Wee Thing<br />
+          11. The Woods of Caol Rua / Miss Walsh{"'"}s<br />
+          12. The Boyne Hunt / Paddy Kelly{"'"}s
+          <br /><br />
+          Dan Gurney: Button accordion<br />
+          John Blake: Guitar
+        </div>
       </div>
     </div>
   );
