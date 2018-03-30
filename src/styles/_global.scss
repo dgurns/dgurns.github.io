@@ -1,0 +1,15 @@
+html {
+  background-color: $lightest-gray-color;
+  font-size: 62.5%;
+}
+#root { min-height: 100%; }
+
+/*required for IE/Edge to be compatible with left:50vw & transform:translate(-50%, 0),
+otherwise there is a phantom div on the right side of the screen (from the left:50vw),
+that the window will scroll to. Note the left:50vw and transform is used to center content
+horizaontally based on vw to prevent content jump when vertical scroll bar show/hide.*/
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: $base-font-size;
+  overflow-x: hidden;
+}

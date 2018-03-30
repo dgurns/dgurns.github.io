@@ -1,8 +1,47 @@
 .header {
   align-items: center;
   background-color: $white-color;
+  border-bottom: 1px solid $light-gray-color;
+  //border-top: 2px solid $blue-color;
   display: flex;
+  font-family: 'Libre Baskerville', serif;
   height: 140px;
   justify-content: center;
+  margin-bottom: 35px;
   width: 100%;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__title {
+  font-size: $large-font-size;
+}
+
+.header__nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: $medium-font-size;
+}
+
+.header__nav-item {
+  height: 24px;
+  &:hover {
+    border-bottom: 2px solid $light-gray-color;
+    cursor: pointer;
+  }
+}
+
+.header__nav-item--selected {
+  border-bottom: 2px solid $blue-color;
+  &:hover {
+    border-bottom: 2px solid $blue-color;
+  }
+}
+
+.header__nav-divider {
+  margin: 0px 5px;
 }
