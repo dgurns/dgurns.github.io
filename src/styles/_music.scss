@@ -13,14 +13,22 @@
   background-size: contain;
   display: flex;
   height: 388px;
+  margin-right: 20px;
   width: 428px;
+  @include mobile {
+    height: 100vw * .9;
+    margin-right: 0px;
+    width: 100%;
+  }
 }
 
 .music__album-description {
   color: $gray-color;
   display: flex;
   flex: 1;
-  margin-left: 20px;
   max-width: 372px;
   min-width: 140px;
+  @include mobile {
+    width: 100%;
+  }
 }
