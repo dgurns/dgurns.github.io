@@ -8,14 +8,22 @@ export default function Music() {
         <div>New CD!</div>
         <h2 style={{ margin: '10px 0px' }}>Ignorance Is Bliss</h2>
         <div>Dan Gurney with John Blake (guitar)</div>
-        <div>Includes 12 page liner note booklet</div>
+        <div>Includes 12-page liner note booklet</div>
+        <div className="music__album-buy-now">
+          <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YJPS995VVY8NL">
+            <img
+              src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+              alt="Buy with PayPal"
+            />
+          </a>
+        </div>
         <div className="music__album-price">
           $20 with free shipping anywhere in the world
         </div>
         <div>
           “Dan Gurney’s music speaks for itself. His heart governs how he plays.
           Dan’s music on this recording is magical, lyrical and effortless.
-          Congratulations lads, this is a memorable recording.” – Sé́amus Connolly
+          Congratulations lads, this is a memorable recording.” – Seamus Connolly
           <br /><br />
           1. Jimmy Neary{"'"}s / The Walls of Liscarroll
           <a style={{ marginLeft: '10px' }}>Listen</a><br />
@@ -33,6 +41,9 @@ export default function Music() {
           <br /><br />
           Dan Gurney: Button accordion<br />
           John Blake: Guitar
+          <br /><br />
+          Recorded by Paul Gurney at RealWorld Studios, Longford<br />
+          Photography by Marianne Mangan
         </div>
       </div>
     </div>
