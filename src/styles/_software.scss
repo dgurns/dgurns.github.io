@@ -7,7 +7,8 @@
 }
 
 .software__mainDescription {
-  margin-bottom: 30px;
+  color: $gray-color;
+  margin-bottom: 45px;
   max-width: 500px;
   text-align: left;
   @include mobile {
@@ -20,16 +21,12 @@
   height: auto;
   display: block;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   overflow: hidden;
 }
 
-.software__blueDivider {
-  width: 120px;
-  height: 2px;
-  background-color: $blue-color;
-  display: block;
-  margin: 0px auto 10px auto;
+.software__projects {
+  margin-bottom: 30px;
 }
 
 .processContainer {

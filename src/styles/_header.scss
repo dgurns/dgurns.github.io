@@ -27,7 +27,8 @@
   font-size: $medium-font-size;
 }
 
-.header__nav-item {
+a.header__nav-item {
+  color: $black-color;
   height: 24px;
   &:hover {
     border-bottom: 2px solid $light-gray-color;
@@ -35,7 +36,7 @@
   }
 }
 
-.header__nav-item--selected {
+a.header__nav-item--selected {
   border-bottom: 2px solid $blue-color;
   &:hover {
     border-bottom: 2px solid $blue-color;

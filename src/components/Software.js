@@ -21,27 +21,27 @@ export default function Software() {
         <a href="http://medium.com/@dgurns">medium.com/@dgurns</a>
       </div>
 
-      <div className="software__sectionTitle">
-        <div className="software__blueDivider" />
-        <h2>Latest Projects</h2>
+      <div className="software__projects">
+        <div className="software__sectionTitle">
+          <h2>Latest Projects</h2>
+        </div>
+
+        {projects.map(project => {
+          return (
+            <Project
+              key={project.title}
+              imageFile={project.imageFile}
+              title={project.title}
+              description={project.description}
+              descriptionLink={project.descriptionLink}
+              appStoreLink={project.appStoreLink}
+              playStoreLink={project.playStoreLink}
+            />
+          );
+        })}
       </div>
 
-      {projects.map(project => {
-        return (
-          <Project
-            key={project.title}
-            imageFile={project.imageFile}
-            title={project.title}
-            description={project.description}
-            descriptionLink={project.descriptionLink}
-            appStoreLink={project.appStoreLink}
-            playStoreLink={project.playStoreLink}
-          />
-        );
-      })}
-
       <div className="sectionTitle">
-        <div className="blueDivider" />
         <h2>My Process</h2>
       </div>
       <div className="processContainer">
