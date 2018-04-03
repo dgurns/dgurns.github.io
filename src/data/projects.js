@@ -2,7 +2,7 @@ export const projects = [
   {
     imageFile: 'i123.png',
     title: 'inspector123 - Mobile Tool for Inspectors',
-    description: 'Read about the build process',
+    description: 'Read about how it was made',
     descriptionLink: 'https://medium.com/@dgurns/building-the-living-sketchbook-app-231a1cf5252',
     appStoreLink: 'https://itunes.apple.com/us/app/inspector123/id1269271714?ls=1&mt=8',
     playStoreLink: 'https://play.google.com/store/apps/details?id=com.inspector123',
