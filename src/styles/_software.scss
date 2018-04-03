@@ -1,0 +1,173 @@
+.software {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0px 20px 60px;
+}
+
+.software__mainDescription {
+  margin-bottom: 30px;
+  max-width: 500px;
+  text-align: left;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.software__sectionTitle {
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+
+.software__blueDivider {
+  width: 120px;
+  height: 2px;
+  background-color: $blue-color;
+  display: block;
+  margin: 0px auto 10px auto;
+}
+
+.processContainer {
+  width: auto;
+  max-width: 425px;
+  height: auto;
+  display: block;
+  margin: 20px auto 0px auto;
+  padding: 10px 20px;
+  clear: both;
+  overflow: hidden;
+}
+@media
+  screen
+  and (max-device-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .processContainer {
+      max-width: 80%;
+      margin: 40px auto 20px auto;
+    }
+}
+.processContainer .processLabel {
+  width: auto;
+  height: auto;
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 25px;
+  margin: 0px 30px 10px 0px;
+  border: 1px solid #d0d0d0;
+  border-radius: 30px;
+}
+@media
+  screen
+  and (max-device-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .processContainer .processLabel {
+      padding: 50px;
+      border-radius: 60px;
+      border: 2px solid #d0d0d0;
+    }
+}
+.processContainer .processLabel .processNumber {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  color: #2d2d2d;
+}
+@media
+  screen
+  and (max-device-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .processContainer .processLabel .processNumber {
+      top: 23px;
+      left: 38px;
+    }
+}
+.processContainer .processInfo {
+  width: 300px;
+  height: auto;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+@media
+  screen
+  and (max-device-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .processContainer .processInfo {
+      width: 70%;
+    }
+}
+.aboutMeContainer {
+  width: auto;
+  max-width: 550px;
+  height: auto;
+  display: block;
+  margin: 20px auto 0px auto;
+  padding: 10px 20px;
+  clear: both;
+  overflow: hidden;
+}
+@media
+  screen
+  and (max-device-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .aboutMeContainer {
+      max-width: 90%;
+    }
+}
+.aboutMeContainer .aboutMePhoto {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin: 0px 20px 10px 0px;
+}
+@media
+  screen
+  and (max-device-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .aboutMeContainer .aboutMePhoto {
+      width: 200px;
+      height: 200px;
+      margin-right: 40px;
+    }
+}
+.aboutMeContainer .aboutMeBio {
+  width: 350px;
+  height: auto;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+@media
+  screen
+  and (max-device-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .aboutMeContainer .aboutMeBio {
+      width: 70%;
+    }
+}
+.contactMe {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0px auto 0px auto;
+  padding: 0px 10px 70px;
+  text-align: center;
+  overflow: hidden;
+}
+@media
+  screen
+  and (max-device-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .contactMe {
+      max-width: 70%;
+    }
+}

@@ -27,6 +27,7 @@ h2 {
 
 a, a:link, a:visited {
   color: $blue-color;
+  display: inline;
   text-decoration: none;
   &:hover {
     cursor: pointer;

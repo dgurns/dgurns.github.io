@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Header from './Header';
+import Software from './Software';
 import Music from './Music';
 
 export default function App() {
@@ -11,7 +12,7 @@ export default function App() {
         <Route exact path="/">
           <Redirect to="/music" />
         </Route>
-        <Route path="/software-development" />
+        <Route path="/software" component={Software} />
         <Route path="/music" component={Music} />
         <Route><Redirect to="/" /></Route>
       </Switch>

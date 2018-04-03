@@ -1,0 +1,66 @@
+.project {
+  clear: both;
+  display: block;
+  height: auto;
+  margin: 20px auto 0px auto;
+  max-width: 425px;
+  overflow: hidden;
+  padding: 10px 20px;
+  width: auto;
+  @include mobile {
+    max-width: 80%;
+    margin: 40px auto 20px auto;
+  }
+}
+
+.project__image {
+  width: 100px;
+  height: 100px;
+  margin: 0px 20px 15px 0px;
+  display: inline;
+  overflow: hidden;
+  float: left;
+  border: 1px solid $light-gray-color;
+  border-radius: 23px;
+  @include mobile {
+    height: 200px;
+    width: 200px;
+    border: 2px solid $light-gray-color;
+    border-radius: 40px;
+  }
+}
+
+.project__infoContainer {
+  width: 300px;
+  height: auto;
+  display: inline;
+  float: left;
+  text-align: left;
+  @include mobile {
+    width: 70%;
+  }
+}
+
+.project__infoSection {
+  width: 100%;
+  height: auto;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 8px;
+  @include mobile {
+    margin-bottom: 25px;
+  }
+}
+
+.project__appStoreImage {
+  height: 41px;
+  width: 120px;
+  display: inline;
+  margin-right: 10px;
+  float: left;
+  @include mobile {
+    height: 90px;
+    width: 260px;
+  }
+}
