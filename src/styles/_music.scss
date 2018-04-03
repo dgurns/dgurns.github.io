@@ -3,7 +3,7 @@
   flex: 1;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0px 20px 60px;
+  padding: 0px 30px 60px;
 }
 
 .music__album-cover {
@@ -16,7 +16,7 @@
   margin-right: 25px;
   width: 428px;
   @include mobile {
-    height: 100vw * .9;
+    height: 100vw * .85;
     margin-right: 0px;
     width: 100%;
   }

@@ -2,14 +2,14 @@
   clear: both;
   display: block;
   height: auto;
-  margin: 20px auto 0px auto;
+  margin: 0px auto 15px;
   max-width: 462px;
   overflow: hidden;
-  padding: 10px 20px;
+  padding: 10px 0px;
   width: auto;
   @include mobile {
-    max-width: 80%;
-    margin: 40px auto 20px auto;
+    width: 100%;
+    margin: 0px auto 20px auto;
   }
 }
 
@@ -22,12 +22,6 @@
   float: left;
   border: 1px solid $gray-color;
   border-radius: 23px;
-  @include mobile {
-    height: 200px;
-    width: 200px;
-    border: 2px solid $light-gray-color;
-    border-radius: 40px;
-  }
 }
 
 .project__infoContainer {
@@ -37,7 +31,7 @@
   float: left;
   text-align: left;
   @include mobile {
-    width: 70%;
+    width: 100%;
   }
 }
 
@@ -48,9 +42,6 @@
   clear: both;
   overflow: hidden;
   margin-bottom: 8px;
-  @include mobile {
-    margin-bottom: 25px;
-  }
 }
 
 .project__appStoreImage {
@@ -59,10 +50,6 @@
   display: inline;
   margin-right: 10px;
   float: left;
-  @include mobile {
-    height: 90px;
-    width: 260px;
-  }
 }
 
 .project__description {

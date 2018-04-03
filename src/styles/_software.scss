@@ -3,13 +3,13 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 0px 20px 60px;
+  padding: 0px 30px 60px;
 }
 
 .software__mainDescription {
   color: $gray-color;
   margin-bottom: 45px;
-  max-width: 500px;
+  max-width: 488px;
   text-align: left;
   @include mobile {
     width: 100%;
@@ -23,32 +23,30 @@
   text-align: center;
   margin-bottom: 25px;
   overflow: hidden;
+  @include mobile {
+    text-align: left;
+  }
 }
 
 .software__projects {
   margin-bottom: 30px;
 }
 
-.processContainer {
+.software__process {
+  margin: 10px 0px 20px;
+}
+
+.software__processStep {
   width: auto;
-  max-width: 425px;
+  max-width: 488px;
   height: auto;
   display: block;
-  margin: 20px auto 0px auto;
-  padding: 10px 20px;
+  margin: 0px auto 20px auto;
   clear: both;
   overflow: hidden;
 }
-@media
-  screen
-  and (max-device-width: 500px)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .processContainer {
-      max-width: 80%;
-      margin: 40px auto 20px auto;
-    }
-}
-.processContainer .processLabel {
+
+.software__processLabel {
   width: auto;
   height: auto;
   position: relative;
@@ -56,115 +54,81 @@
   float: left;
   padding: 25px;
   margin: 0px 30px 10px 0px;
-  border: 1px solid #d0d0d0;
+  border: 1px solid $gray-color;
   border-radius: 30px;
 }
-@media
-  screen
-  and (max-device-width: 500px)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .processContainer .processLabel {
-      padding: 50px;
-      border-radius: 60px;
-      border: 2px solid #d0d0d0;
-    }
-}
-.processContainer .processLabel .processNumber {
+
+.software__processNumber {
   position: absolute;
   top: 14px;
   left: 20px;
-  color: #2d2d2d;
+  color: $black-color;
 }
-@media
-  screen
-  and (max-device-width: 500px)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .processContainer .processLabel .processNumber {
-      top: 23px;
-      left: 38px;
-    }
-}
-.processContainer .processInfo {
-  width: 300px;
-  height: auto;
+
+.software__processInfo {
+  color: $gray-color;
   display: inline-block;
   float: left;
+  height: auto;
+  margin-bottom: 20px;
   text-align: left;
+  width: 406px;
+  @include mobile {
+    width: 100%;
+  }
 }
-@media
-  screen
-  and (max-device-width: 500px)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .processContainer .processInfo {
-      width: 70%;
-    }
+
+.software__processInfo--title {
+  color: $black-color;
+  display: block;
+  margin-bottom: 7px;
 }
-.aboutMeContainer {
+
+.software__aboutMe {
   width: auto;
-  max-width: 550px;
+  max-width: 538px;
   height: auto;
   display: block;
-  margin: 20px auto 0px auto;
-  padding: 10px 20px;
+  margin: 20px auto 60px auto;
   clear: both;
   overflow: hidden;
+  @include mobile {
+    margin-top: 10px;
+    width: 100%;
+  }
 }
-@media
-  screen
-  and (max-device-width: 500px)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .aboutMeContainer {
-      max-width: 90%;
-    }
-}
-.aboutMeContainer .aboutMePhoto {
+
+.software__aboutMePhoto {
   width: 150px;
   height: 150px;
   position: relative;
   display: inline-block;
   float: left;
-  margin: 0px 20px 10px 0px;
+  margin: 0px 30px 10px 0px;
+  @include mobile {
+    margin-bottom: 20px;
+  }
 }
-@media
-  screen
-  and (max-device-width: 500px)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .aboutMeContainer .aboutMePhoto {
-      width: 200px;
-      height: 200px;
-      margin-right: 40px;
-    }
-}
-.aboutMeContainer .aboutMeBio {
-  width: 350px;
-  height: auto;
+
+.software__aboutMeBio {
+  color: $gray-color;
   display: inline-block;
   float: left;
+  height: auto;
   text-align: left;
+  width: 358px;
+  @include mobile {
+    width: 100%;
+  }
 }
-@media
-  screen
-  and (max-device-width: 500px)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .aboutMeContainer .aboutMeBio {
-      width: 70%;
-    }
-}
-.contactMe {
+
+.software__contactMe {
   width: 100%;
-  max-width: 300px;
   height: auto;
   display: block;
-  margin: 0px auto 0px auto;
-  padding: 0px 10px 70px;
+  padding-bottom: 70px;
   text-align: center;
-  overflow: hidden;
-}
-@media
-  screen
-  and (max-device-width: 500px)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .contactMe {
-      max-width: 70%;
-    }
+  @include mobile {
+    text-align: left;
+  }
 }

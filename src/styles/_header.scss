@@ -2,7 +2,6 @@
   align-items: center;
   background-color: $white-color;
   border-bottom: 1px solid $light-gray-color;
-  //border-top: 2px solid $blue-color;
   display: flex;
   font-family: $baskerville-font;
   height: 140px;
@@ -14,6 +13,7 @@
 .header__content {
   display: flex;
   flex-direction: column;
+  padding-bottom: 9px;
 }
 
 .header__title {
@@ -29,7 +29,7 @@
 
 a.header__nav-item {
   color: $black-color;
-  height: 24px;
+  height: 25px;
   &:hover {
     border-bottom: 2px solid $light-gray-color;
     cursor: pointer;
