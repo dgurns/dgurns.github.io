@@ -1,44 +1,56 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Project() {
+export default function Project(props) {
+  const {
+    imageFile, title, description, descriptionLink, appStoreLink, playStoreLink
+  } = props;
+
   return (
     <div className="project">
-      <div className="project__image">
-        <img src="images/LivingSketchbook1.png" alt="LS1" />
-      </div>
+      <img
+        src={`/public/images/${imageFile}`}
+        alt={imageFile}
+        className="project__image"
+      />
       <div className="project__infoContainer">
+        <div className="project__infoSection">{title}</div>
         <div className="project__infoSection">
-          Living Sketchbook Vol. 1: Boyhood Home
+          {appStoreLink &&
+            <a href={appStoreLink}>
+              <img
+                src="/public/images/AppStore.png"
+                alt="App Store"
+                className="project__appStoreImage"
+              />
+            </a>
+          }
+          {playStoreLink &&
+            <a href={playStoreLink}>
+              <img
+                src="/public/images/GooglePlay.png"
+                alt="Google Play"
+                className="project__appStoreImage"
+              />
+            </a>
+          }
         </div>
         <div className="project__infoSection">
-          <div className="project__appStoreImage">
-            <a href="https://itunes.apple.com/us/app/living-sketchbook-vol-1-boyhood-home/id1209783393?ls=1&mt=8">
-              <img src="images/AppStore.png" alt="AS" />
-            </a>
-          </div>
-          <div className="project__appStoreImage">
-            <a href="https://play.google.com/store/apps/details?id=com.livingsketchbook1">
-              <img src="images/GooglePlay.png" alt="GP" />
-            </a>
-          </div>
-        </div>
-        <div className="project__infoSection">
-          <a href="https://medium.com/@dgurns/building-the-living-sketchbook-app-231a1cf5252">
-            Read about the build process
-          </a>
+          {descriptionLink && description
+            ? <a href={descriptionLink}>{description}</a>
+            : <span className="project__description">{description}</span>
+          }
         </div>
       </div>
     </div>
   );
 }
 
-// Project.propTypes = {
-//   imageSrc: PropTypes.string.isRequired,
-//   title: PropTypes.string.isRequired,
-//   description: PropTypes.string,
-//   linkText: PropTypes.string,
-//   linkHref: PropTypes.string,
-//   appStoreLink: PropTypes.string,
-//   playStoreLink: PropTyeps.string
-// }
+Project.propTypes = {
+  imageFile: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  descriptionLink: PropTypes.string,
+  appStoreLink: PropTypes.string,
+  playStoreLink: PropTypes.string
+};

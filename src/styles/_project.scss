@@ -3,7 +3,7 @@
   display: block;
   height: auto;
   margin: 20px auto 0px auto;
-  max-width: 425px;
+  max-width: 462px;
   overflow: hidden;
   padding: 10px 20px;
   width: auto;
@@ -20,7 +20,7 @@
   display: inline;
   overflow: hidden;
   float: left;
-  border: 1px solid $light-gray-color;
+  border: 1px solid $gray-color;
   border-radius: 23px;
   @include mobile {
     height: 200px;
@@ -63,4 +63,8 @@
     height: 90px;
     width: 260px;
   }
+}
+
+.project__description {
+  color: $gray-color;
 }

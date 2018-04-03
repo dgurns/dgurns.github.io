@@ -1,4 +1,6 @@
 import React from 'react';
+
+import { projects } from '../data/projects';
 import Project from './Project';
 
 export default function Software() {
@@ -24,147 +26,20 @@ export default function Software() {
         <h2>Latest Projects</h2>
       </div>
 
-      <Project />
+      {projects.map(project => {
+        return (
+          <Project
+            key={project.title}
+            imageFile={project.imageFile}
+            title={project.title}
+            description={project.description}
+            descriptionLink={project.descriptionLink}
+            appStoreLink={project.appStoreLink}
+            playStoreLink={project.playStoreLink}
+          />
+        );
+      })}
 
-      <div className="projectContainer">
-        <div className="projectImage">
-          <img src="images/i123.png" alt="i123" />
-        </div>
-        <div className="projectInfo">
-          <div className="projectInfoSection">
-            inspector123 - Mobile Tool for Inspectors
-          </div>
-          <div className="projectInfoSection">
-            <div className="appStoreImage">
-              <a href="https://itunes.apple.com/us/app/inspector123/id1269271714?ls=1&mt=8">
-                <img src="images/AppStore.png" alt="App store" />
-              </a>
-            </div>
-            <div className="appStoreImage">
-              <a href="https://play.google.com/store/apps/details?id=com.inspector123">
-                <img src="images/GooglePlay.png" alt="Google Play" />
-              </a>
-            </div>
-          </div>
-          <div className="projectInfoSection">
-            <a href="https://medium.com/@dgurns/making-the-inspector123-app-2097acf463c9">
-              Read about how it was made
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="projectContainer">
-        <div className="projectImage">
-          <img src="images/Fed.png" />
-        </div>
-        <div className="projectInfo">
-          <div className="projectInfoSection">
-            F'ed - Career Re-Training for Millennials
-          </div>
-          <div className="projectInfoSection">
-            <div className="appStoreImage">
-              <a href="https://itunes.apple.com/us/app/fed-career-re-training-for-millennials/id1246455050?ls=1&mt=8">
-                <img src="images/AppStore.png" />
-              </a>
-            </div>
-            <div className="appStoreImage">
-              <a href="https://play.google.com/store/apps/details?id=com.millennialjobs">
-                <img src="images/GooglePlay.png" />
-              </a>
-            </div>
-          </div>
-          <div className="projectInfoSection">
-            <a href="https://github.com/dgurns/MillennialJobs">
-              See the codebase
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="projectContainer">
-        <div className="projectImage">
-          <img src="images/LivingSketchbook2.png" />
-        </div>
-        <div className="projectInfo">
-          <div className="projectInfoSection">
-            Living Sketchbook Vol. 2: Metro North
-          </div>
-          <div className="projectInfoSection">
-            <div className="appStoreImage">
-              <a href="https://appsto.re/us/hLg0ib.i">
-                <img src="images/AppStore.png" />
-              </a>
-            </div>
-            <div className="appStoreImage">
-              <a href="https://play.google.com/store/apps/details?id=com.livingsketchbook2">
-                <img src="images/GooglePlay.png" />
-              </a>
-            </div>
-          </div>
-          <div className="projectInfoSection">
-            <a href="https://about.udemy.com/students/entrepreneurial-music-lover-finds-his-groove-building-mobile-apps/">
-              Read about it on the Udemy Blog
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="projectContainer">
-        <div className="projectImage">
-          <img src="images/LivingSketchbook1.png" />
-        </div>
-        <div className="projectInfo">
-          <div className="projectInfoSection">
-            Living Sketchbook Vol. 1: Boyhood Home
-          </div>
-          <div className="projectInfoSection">
-            <div className="appStoreImage">
-              <a href="https://itunes.apple.com/us/app/living-sketchbook-vol-1-boyhood-home/id1209783393?ls=1&mt=8">
-                <img src="images/AppStore.png" />
-              </a>
-            </div>
-            <div className="appStoreImage">
-              <a href="https://play.google.com/store/apps/details?id=com.livingsketchbook1">
-                <img src="images/GooglePlay.png" />
-              </a>
-            </div>
-          </div>
-          <div className="projectInfoSection">
-            <a href="https://medium.com/@dgurns/building-the-living-sketchbook-app-231a1cf5252">
-              Read about the build process
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="projectContainer">
-        <div className="projectImage">
-          <img src="images/GurneyJourney.jpg" />
-        </div>
-        <div className="projectInfo">
-          <div className="projectInfoSection">
-            Gurney Journey
-          </div>
-          <div className="projectInfoSection">
-            <div className="appStoreImage">
-              <a href="https://itunes.apple.com/us/app/gurney-journey/id1179475898?ls=1&mt=8">
-                <img src="images/AppStore.png" />
-              </a>
-            </div>
-            <div className="appStoreImage">
-              <a href="https://play.google.com/store/apps/details?id=com.gurneyjourney">
-                <img src="images/GooglePlay.png" />
-              </a>
-            </div>
-          </div>
-          <div className="projectInfoSection">
-            <span className="lightGray">
-              5 stars on the App Store & Google Play
-            </span>
-          </div>
-        </div>
-      </div>
       <div className="sectionTitle">
         <div className="blueDivider" />
         <h2>My Process</h2>
