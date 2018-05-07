@@ -3,7 +3,13 @@ import PropTypes from 'prop-types';
 
 export default function Project(props) {
   const {
-    imageFile, title, description, descriptionLink, appStoreLink, playStoreLink
+    imageFile,
+    title,
+    description,
+    descriptionLink,
+    appStoreLink,
+    playStoreLink,
+    webLink,
   } = props;
 
   return (
@@ -16,6 +22,11 @@ export default function Project(props) {
       <div className="project__infoContainer">
         <div className="project__infoSection">{title}</div>
         <div className="project__infoSection">
+          {webLink &&
+            <a href={webLink} className="button">
+              View on web
+            </a>
+          }
           {appStoreLink &&
             <a href={appStoreLink}>
               <img
@@ -52,5 +63,6 @@ Project.propTypes = {
   description: PropTypes.string,
   descriptionLink: PropTypes.string,
   appStoreLink: PropTypes.string,
-  playStoreLink: PropTypes.string
+  playStoreLink: PropTypes.string,
+  webLink: PropTypes.string
 };

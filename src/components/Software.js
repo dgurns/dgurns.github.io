@@ -13,7 +13,9 @@ export default function Software() {
         I specialize in designing and building cross-platform apps. I often
         work with React, Meteor, and React Native.
         <br /><br />
-        Also: Founder of Concert Window and accordion player.
+        I{"'"}m a co-founder of <a href="https://www.hudsonvalleyapps.com/">
+        Hudson Valley Apps.</a> Also: Founder of Concert Window and accordion
+        player.
         <br /><br />
         Get in touch at <a href="mailto:gurney.dan@gmail.com">info@dangurney.net</a>
       </div>
@@ -33,6 +35,7 @@ export default function Software() {
               descriptionLink={project.descriptionLink}
               appStoreLink={project.appStoreLink}
               playStoreLink={project.playStoreLink}
+              webLink={project.webLink}
             />
           );
         })}
@@ -149,7 +152,9 @@ export default function Software() {
       </div>
 
       <div className="software__contactMe">
-        <a href="mailto:info@dangurney.net">Send me an email</a>
+        <a href="mailto:info@dangurney.net" className="button">
+          Send me an email
+        </a>
       </div>
     </div>
   );

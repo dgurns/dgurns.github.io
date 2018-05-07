@@ -39,17 +39,9 @@ export default class Music extends Component {
             <div>Dan Gurney with John Blake (guitar)</div>
             <div>Includes 12-page liner note booklet</div>
             <div className="music__album-buy-now">
-              <a
-                href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YJPS995VVY8NL"
-              >
-                <img
-                  src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
-                  alt="Buy with PayPal"
-                />
+              <a href="https://dangurney.bandcamp.com/" className="button">
+                Buy now
               </a>
-            </div>
-            <div className="music__album-price">
-              $20 with free shipping anywhere in the world
             </div>
             <div>
               “Dan Gurney’s music speaks for itself. His heart governs how he plays.

@@ -1,5 +1,14 @@
 export const projects = [
   {
+    imageFile: 'GoGladys.jpg',
+    title: 'Go Gladys – Next Gen Presentations',
+    description: 'Working with the team to design and build new Meteor + React admin',
+    descriptionLink: '',
+    appStoreLink: '',
+    playStoreLink: '',
+    webLink: 'https://www.gogladys.com/',
+  },
+  {
     imageFile: 'i123.png',
     title: 'inspector123 - Mobile Tool for Inspectors',
     description: 'Read about how it was made',

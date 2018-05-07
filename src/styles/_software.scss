@@ -123,12 +123,13 @@
 }
 
 .software__contactMe {
-  width: 100%;
+  display: flex;
+  flex: 1;
   height: auto;
-  display: block;
+  justify-content: center;
   padding-bottom: 70px;
-  text-align: center;
+  width: 100%;
   @include mobile {
-    text-align: left;
+    justify-content: flex-start;
   }
 }

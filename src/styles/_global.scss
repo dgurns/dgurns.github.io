@@ -33,3 +33,11 @@ a, a:link, a:visited {
     cursor: pointer;
   }
 }
+
+a.button {
+  border: 1px solid $blue-color;
+  border-radius: 5px;
+  display: block;
+  padding: 10px 15px;
+  width: fit-content;
+}
