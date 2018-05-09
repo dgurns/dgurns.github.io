@@ -37,16 +37,16 @@ export default class Music extends Component {
             <div>New CD!</div>
             <h2 style={{ margin: '10px 0px' }}>Ignorance Is Bliss</h2>
             <div>Dan Gurney with John Blake (guitar)</div>
-            <div>Includes 12-page liner note booklet</div>
             <div className="music__album-buy-now">
               <a href="https://dangurney.bandcamp.com/" className="button">
-                Buy now
+                Coming soon
               </a>
             </div>
             <div>
               “Dan Gurney’s music speaks for itself. His heart governs how he plays.
               Dan’s music on this recording is magical, lyrical and effortless.
-              Congratulations lads, this is a memorable recording.” – Seamus Connolly
+              Congratulations lads, this is a memorable recording.”
+              – Seamus Connolly
               <br /><br />
               1. Jimmy Neary{"'"}s / The Walls of Liscarroll
               <a

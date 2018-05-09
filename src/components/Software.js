@@ -11,7 +11,7 @@ export default function Software() {
         Valley.
         <br /><br />
         I specialize in designing and building cross-platform apps. I often
-        work with React, Meteor, and React Native.
+        work with React Native, React, and Meteor.
         <br /><br />
         I{"'"}m a co-founder of <a href="https://www.hudsonvalleyapps.com/">
         Hudson Valley Apps.</a> Also: Founder of Concert Window and accordion
