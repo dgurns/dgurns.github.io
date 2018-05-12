@@ -1,0 +1,27 @@
+.footer {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 30px;
+  justify-content: center;
+  margin: 40px 30px 20px;
+  @include mobile {
+    align-items: flex-start;
+  }
+}
+
+.footer__text {
+  border-top: 1px solid $light-gray-color;
+  color: $gray-color;
+  font-family: $lato-font;
+  font-size: $detail-font-size;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 250px;
+  @include mobile {
+    padding-left: 0px;
+    text-align: left;
+  }
+}
