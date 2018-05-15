@@ -39,7 +39,7 @@ export default class Music extends Component {
             <div>Dan Gurney with John Blake (guitar)</div>
             <div className="music__album-buy-now">
               <a href="https://dangurney.bandcamp.com/" className="button">
-                Coming soon
+                Buy now
               </a>
             </div>
             <div>

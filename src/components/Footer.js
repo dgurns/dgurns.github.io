@@ -14,7 +14,7 @@ export default class Footer extends Component {
           className="footer__text"
           onClick={() => this.setState({ showYears: !showYears })}
         >
-          Made in the Hudson Valley, 2018
+          2018
         </a>
         {showYears &&
           <span className="footer__text">
