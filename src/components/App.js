@@ -11,11 +11,13 @@ export default function App() {
       <Header />
       <Switch>
         <Route exact path="/">
-          <Redirect to="/music" />
+          <Redirect to="/software" />
         </Route>
         <Route path="/software" component={Software} />
         <Route path="/music" component={Music} />
-        <Route><Redirect to="/" /></Route>
+        <Route>
+          <Redirect to="/" />
+        </Route>
       </Switch>
       <Footer />
     </div>
