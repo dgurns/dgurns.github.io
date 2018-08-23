@@ -7,8 +7,8 @@ export default function Software() {
   return (
     <div className="software">
       <div className="software__mainDescription">
-        Hello! I{"'"}m a software engineer in New York{"'"}s beautiful Hudson
-        Valley.
+        Hello! I{"'"}m a full stack software engineer in New York{"'"}s
+        beautiful Hudson Valley.
         <br />
         <br />
         I specialize in designing and building cross-platform apps. I often work

@@ -3,7 +3,7 @@ export const projects = [
     imageFile: 'TouchIcon.png',
     title: 'In-Store App for Major Brand',
     description:
-      'Working with an NYC development firm to build a React Native in-store experience',
+      'Worked with an NYC creative firm to build a React Native in-store experience',
     descriptionLink: '',
     appStoreLink: '',
     playStoreLink: ''
@@ -12,7 +12,7 @@ export const projects = [
     imageFile: 'RadioKingston.jpg',
     title: 'Radio Kingston',
     description:
-      'Working with Moonfarmer to build v2 of React Native radio app',
+      'Built v2 of React Native radio app with multilingual support and live/archived shows',
     descriptionLink: '',
     appStoreLink:
       'https://itunes.apple.com/us/app/radio-kingston/id1351345738?mt=8',
@@ -23,7 +23,7 @@ export const projects = [
     imageFile: 'GoGladys.jpg',
     title: 'Go Gladys – Next Gen Presentations',
     description:
-      'Working with the team to design and build new Meteor + React admin',
+      'Worked with the team to design and build new Meteor + React admin',
     descriptionLink: '',
     appStoreLink: '',
     playStoreLink: '',
