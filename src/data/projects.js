@@ -1,5 +1,16 @@
 export const projects = [
   {
+    imageFile: 'DevilsAdvocate.png',
+    title: "Devil's Advocate – Local News App",
+    description:
+      'UX + build (client supplied design) React Native app with custom swiping, push notifications, and offline capability',
+    descriptionLink: '',
+    appStoreLink:
+      'https://itunes.apple.com/us/app/the-devils-advocate/id1438658597?ls=1&mt=8',
+    playStoreLink:
+      'https://play.google.com/store/apps/details?id=com.devilsadvocate'
+  },
+  {
     imageFile: 'TouchIcon.png',
     title: 'In-Store App for Major Brand',
     description:
