@@ -7,25 +7,26 @@ export default function Software() {
   return (
     <div className="software">
       <div className="software__mainDescription">
-        Hello! I{"'"}m a full stack software engineer in New York{"'"}s
-        beautiful Hudson Valley.
+        Hello! I{"'"}m a full stack software engineer at CarTrawler in Dublin,
+        Ireland.
         <br />
         <br />
-        I specialize in designing and building cross-platform apps. I often work
-        with React Native, React, and Meteor.
+        These days I often work with React, Node, Express, HTML/CSS, and
+        Jenkins.
         <br />
-        <br />
-        I{"'"}m a co-founder of{' '}
-        <a href="https://www.hudsonvalleyapps.com/">Hudson Valley Apps.</a>{' '}
-        Also: Founder of Concert Window and accordion player.
+        <br />I{"'"}m also the founder of Concert Window and an accordion
+        player.
         <br />
         <br />
         Get in touch at{' '}
         <a href="mailto:gurney.dan@gmail.com">info@dangurney.net</a>
+        <br />
+        <br />
+        <a href="https://www.linkedin.com/in/dangurney/">LinkedIn</a>
       </div>
 
       <div className="software__sectionTitle">
-        <h2>Latest Projects</h2>
+        <h2>Recent Projects</h2>
       </div>
 
       <div className="software__projects">
