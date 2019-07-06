@@ -2,7 +2,9 @@ html {
   background-color: $lightest-gray-color;
   font-size: 62.5%;
 }
-#root { min-height: 100%; }
+#root {
+  min-height: 100%;
+}
 
 /*required for IE/Edge to be compatible with left:50vw & transform:translate(-50%, 0),
 otherwise there is a phantom div on the right side of the screen (from the left:50vw),
@@ -25,7 +27,9 @@ h2 {
   font-size: $medium-font-size;
 }
 
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
   color: $blue-color;
   display: inline;
   text-decoration: none;

@@ -7,22 +7,22 @@ export default function Software() {
   return (
     <div className="software">
       <div className="software__mainDescription">
-        Hello! I{"'"}m a full stack software engineer at CarTrawler in Dublin,
-        Ireland.
+        Hello! I{"'"}m a software engineer at CarTrawler in Dublin, Ireland.
         <br />
         <br />
-        These days I often work with React, Node, Express, HTML/CSS, and
-        Jenkins.
+        These days I often work with React, Node, Express, HTML/CSS,
+        Jest/Enzyme, and Jenkins.
         <br />
         <br />I{"'"}m also the founder of Concert Window and an accordion
         player.
         <br />
         <br />
-        Get in touch at{' '}
-        <a href="mailto:gurney.dan@gmail.com">info@dangurney.net</a>
+        Get in touch at <a href="mailto:dan@dangurney.net">dan@dangurney.net</a>
         <br />
         <br />
         <a href="https://www.linkedin.com/in/dangurney/">LinkedIn</a>
+        <br />
+        <a href="https://github.com/dgurns">GitHub</a>
       </div>
 
       <div className="software__sectionTitle">
@@ -149,7 +149,7 @@ export default function Software() {
       </div>
 
       <div className="software__contactMe">
-        <a href="mailto:info@dangurney.net" className="button">
+        <a href="mailto:dan@dangurney.net" className="button">
           Send me an email
         </a>
       </div>

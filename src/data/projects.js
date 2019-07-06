@@ -1,5 +1,14 @@
 export const projects = [
   {
+    imageFile: 'WeddingSite.png',
+    title: 'Wedding Website',
+    description: 'NextJS, React, and styled-components, deployed on Zeit Now',
+    descriptionLink: '',
+    appStoreLink: '',
+    playStoreLink: '',
+    webLink: 'https://christinaanddanswedding.com/'
+  },
+  {
     imageFile: 'DevilsAdvocate.png',
     title: "Devil's Advocate – Local News App",
     description:
