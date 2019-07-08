@@ -7,14 +7,13 @@ export default function Software() {
   return (
     <div className="software">
       <div className="software__mainDescription">
-        Hello! I{"'"}m a software engineer at CarTrawler in Dublin, Ireland.
-        <br />
-        <br />
-        These days I often work with React, Node, Express, HTML/CSS,
-        Jest/Enzyme, and Jenkins.
+        Hello! I{"'"}m a software engineer on the Feature Team at CarTrawler in
+        Dublin, building large scale responsive web applications. These days I
+        often work with React, Node, Express, HTML/CSS, Jest/Enzyme, and
+        Jenkins.
         <br />
         <br />I{"'"}m also the founder of Concert Window and an accordion
-        player.
+        player. Originally from the Hudson Valley in upstate NY.
         <br />
         <br />
         Get in touch at <a href="mailto:dan@dangurney.net">dan@dangurney.net</a>
