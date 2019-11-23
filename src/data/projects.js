@@ -1,12 +1,23 @@
 export const projects = [
   {
+    imageFile: 'CarTrawler.jpg',
+    title: 'CarTrawler Next-Gen Widget Demo',
+    description:
+      'Live-updating interactive preview. Built with React and Ace Editor, served from Node/Express backend and deployed via Docker & Kubernetes',
+    descriptionLink: '',
+    appStoreLink: '',
+    playStoreLink: '',
+    webLink:
+      'http://config-manager.cartrawler.com/demo/widget?clientId=573004&partnerName=norwegian',
+  },
+  {
     imageFile: 'WeddingSite.png',
     title: 'Wedding Website',
     description: 'NextJS, React, and styled-components, deployed on Zeit Now',
     descriptionLink: '',
     appStoreLink: '',
     playStoreLink: '',
-    webLink: 'https://christinaanddanswedding.com/'
+    webLink: 'https://christinaanddanswedding.com/',
   },
   {
     imageFile: 'DevilsAdvocate.png',
@@ -17,7 +28,7 @@ export const projects = [
     appStoreLink:
       'https://itunes.apple.com/us/app/the-devils-advocate/id1438658597?ls=1&mt=8',
     playStoreLink:
-      'https://play.google.com/store/apps/details?id=com.devilsadvocate'
+      'https://play.google.com/store/apps/details?id=com.devilsadvocate',
   },
   {
     imageFile: 'TouchIcon.png',
@@ -26,7 +37,7 @@ export const projects = [
       'Worked with an NYC creative firm to build a React Native in-store experience',
     descriptionLink: '',
     appStoreLink: '',
-    playStoreLink: ''
+    playStoreLink: '',
   },
   {
     imageFile: 'RadioKingston.jpg',
@@ -37,7 +48,7 @@ export const projects = [
     appStoreLink:
       'https://itunes.apple.com/us/app/radio-kingston/id1351345738?mt=8',
     playStoreLink:
-      'https://play.google.com/store/apps/details?id=com.radiokingston&hl=en_US'
+      'https://play.google.com/store/apps/details?id=com.radiokingston&hl=en_US',
   },
   {
     imageFile: 'GoGladys.jpg',
@@ -47,7 +58,7 @@ export const projects = [
     descriptionLink: '',
     appStoreLink: '',
     playStoreLink: '',
-    webLink: 'https://www.gogladys.com/'
+    webLink: 'https://www.gogladys.com/',
   },
   {
     imageFile: 'i123.png',
@@ -58,7 +69,7 @@ export const projects = [
     appStoreLink:
       'https://itunes.apple.com/us/app/inspector123/id1269271714?ls=1&mt=8',
     playStoreLink:
-      'https://play.google.com/store/apps/details?id=com.inspector123'
+      'https://play.google.com/store/apps/details?id=com.inspector123',
   },
   {
     imageFile: 'Fed.png',
@@ -68,7 +79,7 @@ export const projects = [
     appStoreLink:
       'https://itunes.apple.com/us/app/fed-career-re-training-for-millennials/id1246455050?ls=1&mt=8',
     playStoreLink:
-      'https://play.google.com/store/apps/details?id=com.millennialjobs'
+      'https://play.google.com/store/apps/details?id=com.millennialjobs',
   },
   {
     imageFile: 'LivingSketchbook2.png',
@@ -78,7 +89,7 @@ export const projects = [
       'https://about.udemy.com/students/entrepreneurial-music-lover-finds-his-groove-building-mobile-apps/',
     appStoreLink: 'https://appsto.re/us/hLg0ib.i',
     playStoreLink:
-      'https://play.google.com/store/apps/details?id=com.livingsketchbook2'
+      'https://play.google.com/store/apps/details?id=com.livingsketchbook2',
   },
   {
     imageFile: 'LivingSketchbook1.png',
@@ -89,7 +100,7 @@ export const projects = [
     appStoreLink:
       'https://itunes.apple.com/us/app/living-sketchbook-vol-1-boyhood-home/id1209783393?ls=1&mt=8',
     playStoreLink:
-      'https://play.google.com/store/apps/details?id=com.livingsketchbook1'
+      'https://play.google.com/store/apps/details?id=com.livingsketchbook1',
   },
   {
     imageFile: 'GurneyJourney.jpg',
@@ -99,6 +110,6 @@ export const projects = [
     appStoreLink:
       'https://itunes.apple.com/us/app/gurney-journey/id1179475898?ls=1&mt=8',
     playStoreLink:
-      'https://play.google.com/store/apps/details?id=com.gurneyjourney'
-  }
+      'https://play.google.com/store/apps/details?id=com.gurneyjourney',
+  },
 ];

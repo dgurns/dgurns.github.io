@@ -7,9 +7,10 @@ export default function Software() {
   return (
     <div className="software">
       <div className="software__mainDescription">
-        Hello! I{"'"}m a software engineer at CarTrawler in Dublin, building
-        large scale responsive web applications. These days I often work with
-        React, Node, Express, HTML/CSS, Jest/Enzyme, Docker, and Jenkins.
+        Hello! I{"'"}m a Senior UI Engineer at UBiqube in Dublin, building large
+        scale responsive web applications. I often work with React, Node,
+        Express, HTML/SCSS, Jest/React Testing Library, Docker, Kubernetes, and
+        Jenkins.
         <br />
         <br />I{"'"}m also the founder of Concert Window and an accordion
         player. Originally from the Hudson Valley in upstate NY.
@@ -28,20 +29,18 @@ export default function Software() {
       </div>
 
       <div className="software__projects">
-        {projects.map(project => {
-          return (
-            <Project
-              key={project.title}
-              imageFile={project.imageFile}
-              title={project.title}
-              description={project.description}
-              descriptionLink={project.descriptionLink}
-              appStoreLink={project.appStoreLink}
-              playStoreLink={project.playStoreLink}
-              webLink={project.webLink}
-            />
-          );
-        })}
+        {projects.map(project => (
+          <Project
+            key={project.title}
+            imageFile={project.imageFile}
+            title={project.title}
+            description={project.description}
+            descriptionLink={project.descriptionLink}
+            appStoreLink={project.appStoreLink}
+            playStoreLink={project.playStoreLink}
+            webLink={project.webLink}
+          />
+        ))}
       </div>
 
       <div className="software__sectionTitle">
