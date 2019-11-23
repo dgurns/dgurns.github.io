@@ -8,7 +8,7 @@ export const projects = [
     appStoreLink: '',
     playStoreLink: '',
     webLink:
-      'http://config-manager.cartrawler.com/demo/widget?clientId=573004&partnerName=norwegian',
+      'https://config-manager.cartrawler.com/demo/widget?clientId=573004&partnerName=norwegian',
   },
   {
     imageFile: 'WeddingSite.png',
