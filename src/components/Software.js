@@ -9,7 +9,7 @@ export default function Software() {
       <div className="software__mainDescription">
         Hello! I{"'"}m a Senior UI Engineer at UBiqube in Dublin, building large
         scale responsive web applications. I often work with React, Node,
-        Express, HTML/SCSS, Jest/React Testing Library, Docker, Kubernetes, and
+        Express, HTML/SCSS, Jest, React Testing Library, Docker, Kubernetes, and
         Jenkins.
         <br />
         <br />I{"'"}m also the founder of Concert Window and an accordion
