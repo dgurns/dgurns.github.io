@@ -7,10 +7,13 @@ export default function Software() {
   return (
     <div className="software">
       <div className="software__mainDescription">
-        Hello! I{"'"}m a Senior UI Engineer at UBiqube in Dublin, building large
-        scale responsive web applications. I often work with React, Node,
-        Express, HTML/SCSS, Jest, React Testing Library, Docker, Kubernetes, and
-        Jenkins.
+        Hello! I{"'"}m a Senior Engineer at PredictionHealth, helping to
+        architect an AI medical product across a React frontend and Golang
+        backend. I also occasionally do freelance projects when time permits.
+        <br />
+        <br />
+        I often work with React, Node, TypeScript, GraphQL, HTML/SCSS, Jest,
+        React Testing Library, Docker, Kubernetes, and Github Actions.
         <br />
         <br />I{"'"}m also the founder of Concert Window and an accordion
         player. Originally from the Hudson Valley in upstate NY.
@@ -19,8 +22,7 @@ export default function Software() {
         Get in touch at <a href="mailto:dan@dangurney.net">dan@dangurney.net</a>
         <br />
         <br />
-        <a href="https://www.linkedin.com/in/dangurney/">LinkedIn</a>
-        <br />
+        <a href="https://www.linkedin.com/in/dangurney/">LinkedIn</a> /{' '}
         <a href="https://github.com/dgurns">GitHub</a>
       </div>
 
@@ -29,7 +31,7 @@ export default function Software() {
       </div>
 
       <div className="software__projects">
-        {projects.map(project => (
+        {projects.map((project) => (
           <Project
             key={project.title}
             imageFile={project.imageFile}
@@ -131,13 +133,13 @@ export default function Software() {
           className="software__aboutMePhoto"
         />
         <div className="software__aboutMeBio">
-          I{"'"}m a full stack software engineer with a design and
-          entrepreneurial background. Before I started building apps and
-          websites, I founded a company called Concert Window which grew to over
-          150,000 users and generated millions of dollars in revenue. I{"'"}m
-          also a musician with four albums under my belt. I love building and
-          launching new things into the world, and these days I{"'"}m using my
-          experience in technology and startups to help build great products.
+          I{"'"}m a full stack engineer with a design and entrepreneurial
+          background. Before I started building apps and websites, I founded a
+          company called Concert Window which grew to over 200,000 users and
+          generated millions of dollars in revenue. I{"'"}m also a musician with
+          five albums under my belt. I love building and launching new things
+          into the world, and these days I{"'"}m using my experience in
+          technology and startups to help build great products.
         </div>
       </div>
 
