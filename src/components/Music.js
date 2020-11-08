@@ -24,7 +24,7 @@ export default class Music extends Component {
   render() {
     const { modalVisible, activeTrack } = this.state;
     return (
-      <div>
+      <div className="music">
         <Modal visible={modalVisible} onClose={this.toggleModal}>
           <div className="modal__audio">
             <audio autoPlay controls controlsList="nodownload">
@@ -33,7 +33,17 @@ export default class Music extends Component {
           </div>
         </Modal>
 
-        <div className="music">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://gigwindow.com/embed/dangurney"
+          frameBorder="0"
+          className="music__gig-window"
+        />
+
+        <div className="music__divider" />
+
+        <div className="music__album">
           <div className="music__album-cover" />
           <div className="music__album-description">
             <div>Latest album</div>

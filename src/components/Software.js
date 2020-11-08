@@ -8,15 +8,16 @@ export default function Software() {
     <div className="software">
       <div className="software__mainDescription">
         Hello! I{"'"}m a Senior Engineer at PredictionHealth, helping to
-        architect an AI medical product across a React frontend and Golang
-        backend. I also occasionally do freelance projects when time permits.
+        architect our AI doctor{"'"}s assistant across a React frontend and
+        Golang backend. I also occasionally do freelance projects when time
+        permits.
         <br />
         <br />
         I often work with React, Node, TypeScript, GraphQL, HTML/SCSS, Jest,
         React Testing Library, Docker, Kubernetes, and Github Actions.
         <br />
-        <br />I{"'"}m also the founder of Concert Window and an accordion
-        player. Originally from the Hudson Valley in upstate NY.
+        <br />I{"'"}m also the maintainer of GigWindow and an accordion player.
+        Originally from the Hudson Valley in upstate NY.
         <br />
         <br />
         Get in touch at <a href="mailto:dan@dangurney.net">dan@dangurney.net</a>

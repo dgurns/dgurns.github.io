@@ -1,9 +1,33 @@
 .music {
+  align-items: center;
   display: flex;
   flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 auto;
+  max-width: 853px;
+  padding: 0px 30px 60px;
+}
+
+.music__gig-window {
+  height: 360px;
+  width: 100%;
+}
+
+.music__divider {
+  background-color: $light-gray-color;
+  height: 1px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.music__album {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0px 30px 60px;
 }
 
 .music__album-cover {
@@ -16,7 +40,7 @@
   margin-right: 25px;
   width: 428px;
   @include mobile {
-    height: 100vw * .85;
+    height: 100vw * 0.85;
     margin-right: 0px;
     width: 100%;
   }

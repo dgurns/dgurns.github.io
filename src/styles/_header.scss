@@ -33,6 +33,7 @@ a.header__nav-item {
   &:hover {
     border-bottom: 2px solid $light-gray-color;
     cursor: pointer;
+    text-decoration: none;
   }
 }
 
