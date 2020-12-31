@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class Footer extends Component {
   state = {
-    showYears: false
+    showYears: false,
   };
 
   render() {
@@ -18,6 +18,8 @@ export default class Footer extends Component {
         </a>
         {showYears && (
           <span className="footer__text">
+            2021: Year of the Upside
+            <br />
             2020: Year of the Launch
             <br />
             2019: Year of the Unexpected
