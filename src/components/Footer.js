@@ -14,7 +14,7 @@ export default class Footer extends Component {
           className="footer__text"
           onClick={() => this.setState({ showYears: !showYears })}
         >
-          2020
+          2021
         </a>
         {showYears && (
           <span className="footer__text">
