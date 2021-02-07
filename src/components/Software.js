@@ -7,13 +7,12 @@ export default function Software() {
   return (
     <div className="software">
       <div className="software__mainDescription">
-        Hello! I{"'"}m a Senior Engineer at PredictionHealth, helping to
-        architect our AI doctor{"'"}s assistant across a React frontend and
-        Golang backend. I also occasionally do freelance projects when time
-        permits.
+        Hello! I{"'"}m Lead Engineer at PredictionHealth, helping to
+        architect an AI doctor{"'"}s assistant across a React frontend,
+        Golang backend, serverless Lambdas, and a data science API.
         <br />
         <br />
-        I often work with React, Node, TypeScript, GraphQL, HTML/SCSS, Jest,
+        I often work with React, TypeScript, NodeJS, GraphQL, SCSS, Jest,
         React Testing Library, Docker, Kubernetes, and Github Actions.
         <br />
         <br />I{"'"}m also the maintainer of GigWindow and an accordion player.
@@ -32,7 +31,7 @@ export default function Software() {
       </div>
 
       <div className="software__projects">
-        {projects.map((project) => (
+        {projects.map(project => (
           <Project
             key={project.title}
             imageFile={project.imageFile}
