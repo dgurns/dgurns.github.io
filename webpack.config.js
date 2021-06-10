@@ -45,6 +45,6 @@ module.exports = (env) => {
 				},
 			],
 		},
-		plugins: [isDevMode && new ReactRefreshWebpackPlugin()],
+		plugins: isDevMode ? [new ReactRefreshWebpackPlugin()] : [],
 	};
 };
