@@ -4,7 +4,6 @@ import { projects } from '../data/projects';
 import Project from './Project';
 
 export default function Software() {
-<<<<<<< HEAD
 	return (
 		<div className="software">
 			<div className="software__mainDescription">
@@ -14,8 +13,8 @@ export default function Software() {
 				when time permits.
 				<br />
 				<br />
-				I often work with React, Node, TypeScript, Golang, GraphQL, HTML/SCSS,
-				Jest, React Testing Library, Docker, Kubernetes, and Github Actions.
+				I often work with React, Node, TypeScript, Golang, GraphQL, CSS, Jest,
+				React Testing Library, Docker, Kubernetes, and Github Actions.
 				<br />
 				<br />I{"'"}m also an accordion player. Originally from the Hudson
 				Valley in upstate NY.
@@ -27,35 +26,11 @@ export default function Software() {
 				<a href="https://www.linkedin.com/in/dangurney/">LinkedIn</a> /{' '}
 				<a href="https://github.com/dgurns">GitHub</a>
 			</div>
-=======
-  return (
-    <div className="software">
-      <div className="software__mainDescription">
-        Hello! I{"'"}m Lead Engineer at PredictionHealth, helping to
-        architect an AI doctor{"'"}s assistant across a React frontend,
-        Golang backend, serverless Lambdas, and a data science API.
-        <br />
-        <br />
-        I often work with React, TypeScript, NodeJS, GraphQL, SCSS, Jest,
-        React Testing Library, Docker, Kubernetes, and Github Actions.
-        <br />
-        <br />I{"'"}m also the maintainer of GigWindow and an accordion player.
-        Originally from the Hudson Valley in upstate NY.
-        <br />
-        <br />
-        Get in touch at <a href="mailto:dan@dangurney.net">dan@dangurney.net</a>
-        <br />
-        <br />
-        <a href="https://www.linkedin.com/in/dangurney/">LinkedIn</a> /{' '}
-        <a href="https://github.com/dgurns">GitHub</a>
-      </div>
->>>>>>> 4a96b2473917900dca8a6dbf3dd3c6f35a3cd29c
 
 			<div className="software__sectionTitle">
 				<h2>Recent Projects</h2>
 			</div>
 
-<<<<<<< HEAD
 			<div className="software__projects">
 				{projects.map((project) => (
 					<Project
@@ -70,22 +45,6 @@ export default function Software() {
 					/>
 				))}
 			</div>
-=======
-      <div className="software__projects">
-        {projects.map(project => (
-          <Project
-            key={project.title}
-            imageFile={project.imageFile}
-            title={project.title}
-            description={project.description}
-            descriptionLink={project.descriptionLink}
-            appStoreLink={project.appStoreLink}
-            playStoreLink={project.playStoreLink}
-            webLink={project.webLink}
-          />
-        ))}
-      </div>
->>>>>>> 4a96b2473917900dca8a6dbf3dd3c6f35a3cd29c
 
 			<div className="software__sectionTitle">
 				<h2>My Process</h2>
