@@ -45,14 +45,6 @@ module.exports = (env) => {
 				},
 			],
 		},
-		plugins: isDevMode
-			? [new ReactRefreshWebpackPlugin()]
-			: [
-					new webpack.optimize.UglifyJsPlugin({
-						output: {
-							comments: false,
-						},
-					}),
-			  ],
+		plugins: [isDevMode && new ReactRefreshWebpackPlugin()],
 	};
 };
