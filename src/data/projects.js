@@ -7,7 +7,7 @@ export const projects = [
 		descriptionLink: '',
 		appStoreLink: '',
 		playStoreLink: '',
-		webLink: 'https://github.com/dgurns/gig-window',
+		webLink: 'https://gigwindow.com',
 	},
 	{
 		imageFile: 'CarTrawler.jpg',
