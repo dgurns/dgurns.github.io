@@ -1,13 +1,23 @@
+require('dotenv').config();
+
 const webpack = require('webpack');
 
-module.exports = {
+module.exports = env => ({
+  mode: env.NODE_ENV,
   entry: `${__dirname}/src/index.js`,
+  devtool: env.NODE_ENV === 'development' ? 'eval-cheap-source-map' : 'source-map',
+  devServer: {
+    port: 3000,
+    historyApiFallback: true,
+    disableHostCheck: true,
+    hot: true,
+    hotOnly: true,
+  },
   output: {
     path: `${__dirname}/build`,
     publicPath: '/build/',
     filename: 'bundle.js',
   },
-
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
@@ -21,7 +31,6 @@ module.exports = {
       },
     ],
   },
-
   plugins: process.argv.indexOf('-p') === -1 ? [] : [
     new webpack.optimize.UglifyJsPlugin({
       output: {
@@ -29,4 +38,4 @@ module.exports = {
       },
     }),
   ],
-};
+});

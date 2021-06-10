@@ -4,8 +4,8 @@
   "private": true,
   "description": "Single Page Apps for GitHub Pages",
   "scripts": {
-    "start": "webpack-dev-server --devtool eval-source-map --history-api-fallback --open",
-    "build": "webpack -p"
+    "start": "webpack serve --history-api-fallback --env NODE_ENV=development",
+    "build": "webpack --env NODE_ENV=production"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,8 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-interactive": "^0.8.1",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
@@ -30,15 +30,18 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
     "css-loader": "^0.28.11",
+    "dotenv": "^10.0.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
     "node-sass": "^5.0.0",
+    "prettier": "^2.3.1",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
-    "webpack": "^3.11.0",
-    "webpack-dev-server": "^3.1.11"
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   }
 }
