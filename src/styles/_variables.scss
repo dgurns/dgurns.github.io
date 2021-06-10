@@ -2,9 +2,9 @@
 $black-color: #000;
 $blue-color: #54a3ce;
 $gray-color: #727272;
-$light-gray-color: #EBEBEB;
-$lightest-gray-color: #FAFAFA;
-$white-color: #FFF;
+$light-gray-color: #ebebeb;
+$lightest-gray-color: #fafafa;
+$white-color: #fff;
 
 // Font families
 $lato-font: 'Lato', sans-serif;
@@ -18,3 +18,8 @@ $large-font-size: 5rem;
 
 // Media query breakpoints
 $mobile-breakpoint: 500px;
+
+// Spacers
+$xs-spacer: 4px;
+$sm-spacer: 13px;
+$md-spacer: 30px;

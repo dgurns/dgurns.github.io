@@ -27,13 +27,22 @@ const Music = () => {
 				</div>
 			</Modal>
 
-			<iframe
-				width="100%"
-				height="100%"
-				src="https://gigwindow.com/embed/dangurney"
-				frameBorder="0"
-				className="music__gig-window"
-			/>
+			<div className="music__video">
+				<iframe
+					width="100%"
+					height="400"
+					src="https://www.youtube.com/embed/KbuhsnqkYE8?start=46"
+					frameBorder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowFullScreen
+				/>
+				<a
+					href="https://www.youtube.com/channel/UC-noq8EUFYOyTUc1083bLZg"
+					className="music__video-link"
+				>
+					Check out my YouTube channel
+				</a>
+			</div>
 
 			<div className="music__divider" />
 
@@ -45,7 +54,7 @@ const Music = () => {
 					<div>Dan Gurney with John Blake (guitar)</div>
 					<div className="music__album-buy-now">
 						<a href="https://dangurney.bandcamp.com/" className="button">
-							Buy now
+							Listen on Bandcamp
 						</a>
 					</div>
 					<div>
@@ -60,7 +69,7 @@ const Music = () => {
 							style={{ marginLeft: '10px' }}
 							onClick={() => loadTrack('Track1.mp3')}
 						>
-							Listen
+							Play
 						</a>
 						<br />
 						2. Fermanagh Highland / Sporting Nell

@@ -5,7 +5,8 @@
 	"description": "Dan Gurney Personal Website",
 	"scripts": {
 		"dev": "webpack serve --history-api-fallback --env NODE_ENV=development",
-		"build": "webpack --env NODE_ENV=production"
+		"build": "webpack --env NODE_ENV=production",
+		"build-and-push": "yarn build && git add . && git commit -m \"Update build\" && git push"
 	},
 	"repository": {
 		"type": "git",
@@ -14,11 +15,13 @@
 	"author": "Rafael Pedicini <code@rafrex.com>",
 	"license": "MIT",
 	"dependencies": {
+		"@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
 		"classnames": "^2.2.5",
 		"prop-types": "^15.6.0",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
 		"react-interactive": "^0.8.1",
+		"react-refresh": "^0.10.0",
 		"react-router": "^4.2.0",
 		"react-router-dom": "^4.2.2"
 	},
