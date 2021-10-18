@@ -7,14 +7,14 @@ export default function Software() {
 	return (
 		<div className="software">
 			<div className="software__mainDescription">
-				Hello! I{"'"}m Lead Engineer at PredictionHealth, helping to architect
-				our AI doctor{"'"}s assistant across a React frontend, Golang backend,
-				and serverless Lambda functions. I enjoy working on open source projects
-				when time permits.
+				Hello! I{"'"}m lead engineer at PredictionHealth, where we are building
+				an AI doctor
+				{"'"}s assistant to improve the quality of medical care. I enjoy working
+				on open source projects when time permits.
 				<br />
 				<br />
-				I often work with React, Node, TypeScript, Golang, GraphQL, CSS, Jest,
-				React Testing Library, Docker, Kubernetes, and Github Actions.
+				I often work with React, Node, TypeScript, Go, Python, GraphQL, CSS,
+				Jest, React Testing Library, Serverless, Docker, Kubernetes, and CI/CD.
 				<br />
 				<br />I{"'"}m also an accordion player. Originally from the Hudson
 				Valley in upstate NY.
