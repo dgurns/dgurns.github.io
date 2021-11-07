@@ -1,5 +1,15 @@
 export const projects = [
 	{
+		imageFile: 'TradArchiveLogo.png',
+		title: 'Trad Archive',
+		description:
+			'An open source experiment in collaboration with the Irish Traditional Music Archive. It will allow community members to tag previously unreleased archival recordings. TypeScript, NextJS, Tailwind, GraphQL, Serverless, PostgresDB.',
+		descriptionLink: '',
+		appStoreLink: '',
+		playStoreLink: '',
+		webLink: 'https://github.com/dgurns/trad-archive',
+	},
+	{
 		imageFile: 'GigWindow.png',
 		title: 'GigWindow',
 		description:

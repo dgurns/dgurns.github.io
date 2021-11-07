@@ -60,8 +60,8 @@ export default function Software() {
 						Every project is different, but once the strategy has been firmed
 						up, I usually begin by wireframing the core user interface. This
 						includes navigation, flows between views, and the impact of
-						different screen sizes. I like to do this on paper or with software
-						like Balsamiq.
+						different screen sizes. I like to do this on paper at first,
+						followed by interactive mockups in Figma.
 					</div>
 				</div>
 
@@ -73,10 +73,10 @@ export default function Software() {
 						<span className="software__processInfo--title">Design</span>
 						Often I will use a client-supplied design, or in other cases I
 						handle the design phase myself and draw on my experience leading
-						product at Concert Window, a live broadcasting platform with 150,000
+						product at Concert Window, a live broadcasting platform with 200,000
 						users. I strive for simplicity, beauty, and intuitiveness. One thing
 						I love to do is creating interfaces for completely new activities; I
-						also love adapting and polishing. I usually do designs in Sketch.
+						also love adapting and polishing. I usually do designs in Figma.
 					</div>
 				</div>
 
@@ -88,9 +88,7 @@ export default function Software() {
 						<span className="software__processInfo--title">Development</span>
 						Whether I{"'"}m using a client-supplied design or one of my own, the
 						development phase is a true collaborative process where product
-						vision comes into focus with frequent alpha releases. I usually
-						build apps in React Native, which enables fully native
-						cross-platform releases for iOS and Android smartphones + tablets.
+						vision comes into focus with frequent alpha releases.
 					</div>
 				</div>
 
@@ -116,9 +114,9 @@ export default function Software() {
 						<span className="software__processInfo--title">Launch</span>
 						In addition to being a satisfying and exciting moment, launch is
 						also important to get right. I do the advance planning to ensure a
-						smooth rollout on the app stores. I{"'"}m also happy to brainstorm
-						on successful strategies that I{"'"}ve used in the past to generate
-						millions of dollars in product revenues.
+						smooth rollout. I{"'"}m also happy to brainstorm on successful
+						strategies that I{"'"}ve used in the past to generate millions of
+						dollars in product revenues.
 					</div>
 				</div>
 			</div>
