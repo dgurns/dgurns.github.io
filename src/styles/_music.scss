@@ -1,68 +1,81 @@
 .music {
-  align-items: center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: 0 auto;
-  max-width: 853px;
-  padding: 0px 30px 60px;
+	align-items: center;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 0 auto;
+	max-width: 853px;
+	padding: 0px 30px 60px;
 }
 
-.music__gig-window {
-  height: 360px;
-  width: 100%;
+.music__video {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+a.music__video-link {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	margin-top: $sm-spacer;
+	i {
+		font-size: $detail-font-size;
+		margin-left: $xs-spacer;
+	}
 }
 
 .music__divider {
-  background-color: $light-gray-color;
-  height: 1px;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  width: 100%;
+	background-color: $light-gray-color;
+	height: 1px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	width: 100%;
 }
 
 .music__album {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .music__album-cover {
-  background-image: url('/public/images/AlbumCover.jpg');
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  height: 388px;
-  margin-right: 25px;
-  width: 428px;
-  @include mobile {
-    height: 100vw * 0.85;
-    margin-right: 0px;
-    width: 100%;
-  }
+	background-image: url('/public/images/AlbumCover.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	height: 388px;
+	margin-right: 25px;
+	width: 428px;
+	@include mobile {
+		height: 100vw * 0.85;
+		margin-right: 0px;
+		width: 100%;
+	}
 }
 
 .music__album-description {
-  color: $gray-color;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  max-width: 400px;
-  min-width: 140px;
-  @include mobile {
-    width: 100%;
-  }
+	color: $gray-color;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	max-width: 400px;
+	min-width: 140px;
+	@include mobile {
+		width: 100%;
+	}
 }
 
 .music__album-buy-now {
-  margin: 20px 0px;
+	margin: 20px 0px;
 }
 
 .music__album-price {
-  color: $black-color;
-  margin-bottom: 38px;
+	color: $black-color;
+	margin-bottom: 38px;
 }

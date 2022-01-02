@@ -1,9 +1,9 @@
 html {
-  background-color: $lightest-gray-color;
-  font-size: 62.5%;
+	background-color: $lightest-gray-color;
+	font-size: 62.5%;
 }
 #root {
-  min-height: 100%;
+	min-height: 100%;
 }
 
 /*required for IE/Edge to be compatible with left:50vw & transform:translate(-50%, 0),
@@ -11,43 +11,43 @@ otherwise there is a phantom div on the right side of the screen (from the left:
 that the window will scroll to. Note the left:50vw and transform is used to center content
 horizaontally based on vw to prevent content jump when vertical scroll bar show/hide.*/
 body {
-  font-family: $lato-font;
-  font-size: $base-font-size;
-  overflow-x: hidden;
+	font-family: $lato-font;
+	font-size: $base-font-size;
+	overflow-x: hidden;
 }
 
 h1 {
-  color: $black-color;
-  font-size: $large-font-size;
+	color: $black-color;
+	font-size: $large-font-size;
 }
 
 h2 {
-  color: $black-color;
-  font-family: $baskerville-font;
-  font-size: $medium-font-size;
+	color: $black-color;
+	font-family: $baskerville-font;
+	font-size: $medium-font-size;
 }
 
 a,
 a:link,
 a:visited {
-  color: $blue-color;
-  display: inline;
-  text-decoration: none;
-  &:hover {
-    cursor: pointer;
-    text-decoration: underline;
-  }
+	color: $blue-color;
+	display: inline;
+	text-decoration: none;
+	&:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
 }
 
 a.button {
-  border: 1px solid $blue-color;
-  border-radius: 5px;
-  display: block;
-  padding: 9px 15px 10px;
-  width: fit-content;
-  &:hover {
-    border: 1px solid darken($blue-color, 25%);
-    color: darken($blue-color, 25%);
-    text-decoration: none;
-  }
+	border: 1px solid $blue-color;
+	border-radius: 5px;
+	display: block;
+	padding: 9px 15px 10px;
+	width: fit-content;
+	&:hover {
+		border: 1px solid darken($blue-color, 25%);
+		color: darken($blue-color, 25%);
+		text-decoration: none;
+	}
 }
